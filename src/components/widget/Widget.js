@@ -7,8 +7,8 @@ import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalance
 import "./widget.scss";
 
 const Widget = ({type}) => {
-     const cash = 200;
-     const diff = 30;
+     const cash = 400;
+     const diff = 50;
 
      let data;
 
@@ -29,6 +29,7 @@ const Widget = ({type}) => {
            ),
          };
          break;
+         
        case "order":
          data = {
            title: "ORDERS",

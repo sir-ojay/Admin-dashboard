@@ -15,12 +15,12 @@ const Featured = () => {
       </div>
       <div className="bottom">
         <div className="featuredChart">
-          <CircularProgressbar value={75} text={"75%"} strokeWidth={5} />
+          <CircularProgressbar value={76} text={"76%"} strokeWidth={5} />
         </div>
         <p className="title">Total sales made today</p>
-        <p className="amount">$520</p>
+        <p className="amount">$720</p>
         <p className="desc">
-          Previous transactions processing. Last payments may not be included
+          Previous transactions processing. Last payments may not be included.
         </p>
         <div className="summary">
           <div className="item">
@@ -35,7 +35,7 @@ const Featured = () => {
             <div className="itemTitle">Last Week </div>
             <div className="itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small" />
-              <div className="resultAmount">$14.4k</div>
+              <div className="resultAmount">$17.4k</div>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ const Featured = () => {
             <div className="itemTitle">Last Month </div>
             <div className="itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small" />
-              <div className="resultAmount">$13.4k</div>
+              <div className="resultAmount">$15.4k</div>
             </div>
           </div>
         </div>

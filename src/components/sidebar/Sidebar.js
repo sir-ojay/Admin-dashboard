@@ -24,8 +24,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
+        
         <Link to="/">
-          <span className="logo">Ojay-admin</span>
+          <span className="logo">Blueberry</span>
         </Link>
       </div>
       <hr />
